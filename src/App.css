@@ -1,0 +1,19 @@
+* {
+margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 40px 1fr;
+  justify-items: center;
+}
+
+.todo {
+  border: 1px solid black;
+  padding: 5px 10px;
+  margin: 15px;
+  max-width: 300px;
+}
